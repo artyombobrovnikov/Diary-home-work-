@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		84C7030B1CC8E2F4001DF2DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7030A1CC8E2F4001DF2DC /* AppDelegate.swift */; };
-		84C7030D1CC8E2F4001DF2DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7030C1CC8E2F4001DF2DC /* ViewController.swift */; };
+		84C7030D1CC8E2F4001DF2DC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7030C1CC8E2F4001DF2DC /* MasterViewController.swift */; };
 		84C703101CC8E2F4001DF2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C7030E1CC8E2F4001DF2DC /* Main.storyboard */; };
 		84C703131CC8E2F4001DF2DC /* Diary__home_work_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C703111CC8E2F4001DF2DC /* Diary__home_work_.xcdatamodeld */; };
 		84C703151CC8E2F4001DF2DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C703141CC8E2F4001DF2DC /* Assets.xcassets */; };
 		84C703181CC8E2F4001DF2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C703161CC8E2F4001DF2DC /* LaunchScreen.storyboard */; };
+		84C703201CC8E3BB001DF2DC /* DiaryNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7031F1CC8E3BB001DF2DC /* DiaryNoteCell.swift */; };
+		84C703221CC8E3F5001DF2DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C703211CC8E3F5001DF2DC /* DetailViewController.swift */; };
+		84C703241CC8E41A001DF2DC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C703231CC8E41A001DF2DC /* SettingViewController.swift */; };
+		84C703261CC8E43F001DF2DC /* SettingsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C703251CC8E43F001DF2DC /* SettingsDelegate.swift */; };
+		84C703281CC8E46E001DF2DC /* DiaryNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C703271CC8E46E001DF2DC /* DiaryNote.swift */; };
+		84C7032A1CC8E489001DF2DC /* DiaryNoteCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C703291CC8E489001DF2DC /* DiaryNoteCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84C703071CC8E2F4001DF2DC /* Diary (home work).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diary (home work).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C7030A1CC8E2F4001DF2DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84C7030C1CC8E2F4001DF2DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C7030C1CC8E2F4001DF2DC /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		84C7030F1CC8E2F4001DF2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C703121CC8E2F4001DF2DC /* Diary__home_work_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary__home_work_.xcdatamodel; sourceTree = "<group>"; };
 		84C703141CC8E2F4001DF2DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C703171CC8E2F4001DF2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C703191CC8E2F4001DF2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C7031F1CC8E3BB001DF2DC /* DiaryNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryNoteCell.swift; sourceTree = "<group>"; };
+		84C703211CC8E3F5001DF2DC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84C703231CC8E41A001DF2DC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		84C703251CC8E43F001DF2DC /* SettingsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDelegate.swift; sourceTree = "<group>"; };
+		84C703271CC8E46E001DF2DC /* DiaryNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryNote.swift; sourceTree = "<group>"; };
+		84C703291CC8E489001DF2DC /* DiaryNoteCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryNoteCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				84C7030A1CC8E2F4001DF2DC /* AppDelegate.swift */,
-				84C7030C1CC8E2F4001DF2DC /* ViewController.swift */,
+				84C7030C1CC8E2F4001DF2DC /* MasterViewController.swift */,
+				84C7031F1CC8E3BB001DF2DC /* DiaryNoteCell.swift */,
+				84C703211CC8E3F5001DF2DC /* DetailViewController.swift */,
+				84C703231CC8E41A001DF2DC /* SettingViewController.swift */,
+				84C703251CC8E43F001DF2DC /* SettingsDelegate.swift */,
+				84C703271CC8E46E001DF2DC /* DiaryNote.swift */,
+				84C703291CC8E489001DF2DC /* DiaryNoteCore.swift */,
 				84C7030E1CC8E2F4001DF2DC /* Main.storyboard */,
 				84C703141CC8E2F4001DF2DC /* Assets.xcassets */,
 				84C703161CC8E2F4001DF2DC /* LaunchScreen.storyboard */,
@@ -139,9 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C7030D1CC8E2F4001DF2DC /* ViewController.swift in Sources */,
+				84C703261CC8E43F001DF2DC /* SettingsDelegate.swift in Sources */,
+				84C7032A1CC8E489001DF2DC /* DiaryNoteCore.swift in Sources */,
+				84C703281CC8E46E001DF2DC /* DiaryNote.swift in Sources */,
+				84C7030D1CC8E2F4001DF2DC /* MasterViewController.swift in Sources */,
+				84C703201CC8E3BB001DF2DC /* DiaryNoteCell.swift in Sources */,
+				84C703221CC8E3F5001DF2DC /* DetailViewController.swift in Sources */,
 				84C7030B1CC8E2F4001DF2DC /* AppDelegate.swift in Sources */,
 				84C703131CC8E2F4001DF2DC /* Diary__home_work_.xcdatamodeld in Sources */,
+				84C703241CC8E41A001DF2DC /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +315,7 @@
 				84C7031E1CC8E2F4001DF2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
